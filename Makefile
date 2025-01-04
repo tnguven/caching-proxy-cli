@@ -7,9 +7,6 @@ build:
 run: build
 	@${BUILD_DIR}
 
-# test:
-# 	@go test -v ./... -count=1
-
 test-rerun:
 	@go run gotest.tools/gotestsum@latest --debug --format testname --rerun-fails --packages="./..." -- -count=2
 

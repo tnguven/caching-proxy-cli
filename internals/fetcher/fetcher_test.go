@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tnguven/caching-proxy-cli/cmd/fetcher"
+	"github.com/tnguven/caching-proxy-cli/internals/fetcher"
 )
 
 func TestFetchURL_Success(t *testing.T) {

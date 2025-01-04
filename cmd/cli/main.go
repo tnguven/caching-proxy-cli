@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tnguven/caching-proxy-cli/cmd/fetcher"
-	"github.com/tnguven/caching-proxy-cli/cmd/persist"
+	"github.com/tnguven/caching-proxy-cli/internals/fetcher"
+	"github.com/tnguven/caching-proxy-cli/internals/persist"
 )
 
 func hashURL(url string) string {

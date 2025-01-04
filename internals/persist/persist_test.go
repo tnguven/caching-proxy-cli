@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tnguven/caching-proxy-cli/cmd/persist"
+	"github.com/tnguven/caching-proxy-cli/internals/persist"
 )
 
 func TestSaveToCache_Success(t *testing.T) {
